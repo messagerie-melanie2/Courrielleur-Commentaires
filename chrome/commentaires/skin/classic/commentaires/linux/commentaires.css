@@ -1,0 +1,129 @@
+
+
+#expandedX-SuivimelRow{
+display:none;
+}
+
+
+
+/* +- sur le libelle commentaires */
+#comment-toggleSuivi{
+  margin-top: 4px;
+  width: 9px;
+  height:9px;
+}
+.commentcollapsed{  
+  list-style-image: url("chrome://global/skin/tree/twisty-clsd.png");
+}
+.commentopen{
+  list-style-image: url("chrome://global/skin/tree/twisty-open.png");
+}
+
+
+
+
+#comment-suivitxt{
+  border-left-width:0px;
+  color:blue;
+}
+
+
+#comment-suivitxt .textbox-input-box{  
+  border-left-width:0px;
+  margin:0px;
+}
+
+
+#comment-cadre{
+  margin-top:4px;
+  margin-left:4px;
+  margin-right:4px;
+  margin-bottom:4px;
+}
+
+/*
+#comment-cadre label{
+  font-weight:bold;
+}*/
+
+.comment-libon{
+
+  font-weight:bold;
+  color:black;
+}
+
+.comment-liboff{
+
+  font-weight:normal;
+  color:grey;
+}
+
+#comment-cadre spacer{
+  height:4px;
+}
+
+
+
+/* boite a propos */
+
+.bandeau{
+  height:50px;
+  background-color: #CCE1A2;
+}
+
+.bandeau-titre{
+  margin-left:10px; 
+  margin-top:14px; 
+  font-size: 14pt;
+  font-family: Arial;
+  color:#385C02;
+}
+
+#apropos-dlg{
+  background-color:white;
+}
+
+#apropos-cadre{
+  padding-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.aproposdesc{
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+}
+
+.apropos-libministere{
+
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+  margin-bottom: 6px;
+  color:#385C02;
+  
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-bottom-color:blue;
+}
+
+.apropos-libministere2{
+  font-family:arial;
+  font-size:12px;
+  font-weight:600;
+  margin-top:24px;
+  margin-bottom: 2px;
+  color:rgb(72,33,64);
+}
+
+
+#apropos-collogo{
+  padding-top:60px;  
+}
+
+#apropos-cadredesc{
+  padding-left:4px;
+}
+
+

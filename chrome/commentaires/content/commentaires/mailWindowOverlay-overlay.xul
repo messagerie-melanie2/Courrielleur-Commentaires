@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://commentaires/locale/commentaires.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://commentaires/content/mailWindowOverlay-overlay.js"/>
+
+  <!-- menu edition -->
+  <menupopup id="menu_EditPopup">
+
+    <menuseparator/>
+    <menuitem label="&comment-optionmenu;"
+              id="comment-optionmenu"
+              accesskey="&comment-optionmenucle;"
+              oncommand="btAjoutCommentaire(event);"/>
+  </menupopup>
+
+  <!-- menu contextuel -->
+  <menupopup id="mailContext">
+    <menuitem label="&comment-optionmenu;"
+              id="comment-optionmenuctx"
+              accesskey="&comment-optionmenucle;"
+              oncommand="btAjoutCommentaire(event);"/>
+  </menupopup>
+
+</overlay>

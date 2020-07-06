@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://commentaires/skin/commentaires.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://commentaires/locale/commentaires.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://commentaires/content/commentaires-utils.js"/>
+  <script type="application/x-javascript" src="chrome://commentaires/content/messenger-overlay.js"/>
+
+  <!-- cadre commentaire -->
+  <vbox id="messagepanebox">
+    <vbox id="singlemessage">
+      <splitter id="msgHeaderView-splitter" insertafter="msgHeaderView" resizebefore="closest" resizeafter="grow" collapsed="true"/>
+        <vbox id="comment-cadre" insertbefore="messagepanewrapper"/>
+      <splitter id="comment-split" insertbefore="messagepanewrapper" resizebefore="closest" collapsed="true"/>
+    </vbox>
+  </vbox>
+
+</overlay>

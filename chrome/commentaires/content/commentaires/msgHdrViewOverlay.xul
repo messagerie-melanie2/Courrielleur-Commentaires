@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://commentaires/skin/commentaires.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://commentaires/locale/commentaires.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://commentaires/content/msgHdrViewOverlay.js"/>
+
+  <toolbarpalette id="header-view-toolbar">
+
+    <toolbarbutton id="hdrCommentairesButton" insertbefore="hdrJunkButton"
+                   label="&comment-btcomment;"
+                   tooltiptext="&comment-btcomment.bulle;"
+                   oncommand="btAjoutCommentaire(event);RestoreFocusAfterHdrButton();"
+                   class="toolbarbutton-1 msgHeaderView-button"/>
+
+  </toolbarpalette>
+
+  <vbox id="comment-cadre">
+
+    <hbox align="start">
+      <image id="comment-toggleSuivi" class="commentcollapsed" onclick="ChangeAffComment();"/>
+      <label id="comment-lib" value="&comment-libcomment;" class="comment-liboff"/>
+    </hbox>
+
+    <hbox id="comment-suivi" flex="1" collapsed="true">
+      <textbox id="comment-suivitxt" flex="1" multiline="true" disabled="true"/>
+    </hbox>
+
+  </vbox>
+
+</overlay>

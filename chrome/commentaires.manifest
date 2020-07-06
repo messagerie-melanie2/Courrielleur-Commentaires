@@ -1,0 +1,7 @@
+content  commentaires  commentaires/content/commentaires/
+skin  commentaires classic/1.0 commentaires/skin/classic/commentaires/windows/ os=WINNT
+skin  commentaires classic/1.0 commentaires/skin/classic/commentaires/linux/ os!=WINNT
+overlay  chrome://messenger/content/messageWindow.xul  chrome://commentaires/content/messagewindow-overlay.xul
+overlay  chrome://messenger/content/messenger.xul  chrome://commentaires/content/messenger-overlay.xul
+overlay  chrome://messenger/content/msgHdrViewOverlay.xul  chrome://commentaires/content/msgHdrViewOverlay.xul
+overlay  chrome://messenger/content/mailWindowOverlay.xul  chrome://commentaires/content/mailWindowOverlay-overlay.xul

@@ -1,0 +1,22 @@
+<!ENTITY comment-optionmenu "Ajouter un commentaire...">
+<!ENTITY comment-optionmenucle "A">
+<!ENTITY comment-libcomment "Commentaire(s):">
+<!ENTITY comment-btcomment "Commenter">
+<!ENTITY comment-btcomment.bulle "Ajouter un commentaire au message">
+
+<!ENTITY comment-titre "Ajout d'un commentaire au message">
+<!ENTITY comment-libsujet "Sujet du message:">
+<!ENTITY comment-libsuivi "Commentaire:">
+<!ENTITY comment-btvalider "Valider">
+<!ENTITY comment-btvalider.cle "V">
+<!ENTITY comment-btannuler "Annuler">
+<!ENTITY comment-btannuler.cle "A">
+<!ENTITY comment-libutil "&#0201;metteur:">
+
+<!ENTITY comment.apropos.titre "&#192; propos de Commentaires">
+<!ENTITY comment.apropos.text1 "Modification du sujet et ajout de commentaires dans les messages">
+<!ENTITY comment.apropos.text2 "Version : &comment.numver;">
+<!ENTITY comment.apropos.text3 "Publié le : &comment.datever;">
+<!ENTITY comment.numver "6.5">
+<!ENTITY comment.datever "29/11/2019">
+

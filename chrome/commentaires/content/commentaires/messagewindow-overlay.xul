@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://commentaires/locale/commentaires.dtd">
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript" src="chrome://commentaires/content/commentaires-utils.js"/>
+
+  <!-- cadre commentaire -->
+  <vbox id="messagepanebox">
+    <splitter id="msgHeaderView-splitter" insertafter="msgHeaderView" resizebefore="closest" resizeafter="grow" collapsed="true"/>
+    <vbox id="comment-cadre" insertbefore="messagepane"/>
+    <splitter id="comment-split" insertbefore="messagepane" collapsed="true"/>
+  </vbox>
+</overlay>

@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://messenger/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://commentaires/skin/commentaires.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://commentaires/locale/commentaires.dtd">
+
+<window id="commentairesdlg"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        xmlns:nc="http://home.netscape.com/NC-rdf#"
+        title="&comment-titre;"
+        onload="initDlgCommentaires()"
+        width="420"
+        height="280"
+        persist="width height screenX screenY sizemode">
+
+  <script type="application/x-javascript" src="chrome://commentaires/content/commentaires-utils.js"/>
+  <script type="application/x-javascript" src="chrome://commentaires/content/commentaires.js"/>
+
+  <keyset id="keys">
+    <key keycode="VK_ESCAPE" oncommand="AnnuleSaisie();"/>
+  </keyset>
+
+  <vbox id="comment-cadre" flex="1">
+
+    <label value="&comment-libutil;"/>
+
+    <menulist id="comment-util"
+              editable="false">
+
+      <menupopup id="comment-popup"/>
+
+    </menulist>
+
+    <label value="&comment-libsujet;"/>
+    <textbox id="comment-sujet" value=""/>
+
+    <spacer/>
+
+    <label value="&comment-libsuivi;"/>
+    <textbox id="comment-suivi" multiline="true" oninput="OnSaisieComment();" value="" flex="1" cols="80"/>
+
+  </vbox>
+
+  <hbox>
+    <hbox  flex="1"/>
+    <button label="&comment-btvalider;" accesskey="&comment-btvalider.cle;" oncommand="ValideSaisie();"/>
+    <button label="&comment-btannuler;" accesskey="&comment-btannuler.cle;" oncommand="AnnuleSaisie();"/>
+    <hbox  flex="1"/>
+  </hbox>
+
+</window>
