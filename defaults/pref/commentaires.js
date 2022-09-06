@@ -6,3 +6,4 @@ pref("mailnews.tags.~commente.tag", "Comment\u00e9");
 // si true, efface les etiquettes apres ajout d'un commentaire
 pref("commentaires.razetiqettes", false);
 
+pref("commentaires.trace", false);
